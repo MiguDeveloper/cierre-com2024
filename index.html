@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      :root {
+        --cometa-magenta: #ff69ff;
+        --cometa-cian: #60ffd4;
+        --cometa-amarillo: #ffed00;
+        --cometa-fucsia: #ff68ff;
+        --escalo-black: #000;
+        --mdc-snackbar-container-color: var(--cometa-fucsia);
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 300;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: var(--escalo-black);
+        color: white;
+      }
+      .container {
+        max-width: 748px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+      }
+
+      .message {
+        display: flex;
+        align-items: center;
+      }
+
+      .message__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+      }
+      .min-h-screen {
+        min-height: 100vh;
+      }
+
+      .text-lg {
+        font-size: 1.125rem;
+      }
+
+      .text-xl {
+        font-size: 1.25rem;
+      }
+
+      .text-2xl {
+        font-size: 1.5rem;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .font-medium {
+        font-weight: 500;
+      }
+
+      .font-semibold {
+        font-weight: 600;
+      }
+    </style>
+    <title>Beca Cometa 2024</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="min-h-screen message">
+        <div class="message__items text-center">
+          <h1 class="text-2xl font-semibold">
+            ¡Gracias por tu interés en COMETA CAMP!
+          </h1>
+          <p class="text-lg">
+            Lamentablemente la
+            <span class="font-semibold"
+              >convocatoria llegó a su fin el 25 de mayo</span
+            >. Pero no te desanimes, ¡hay más oportunidades en el firmamento!
+          </p>
+          <p class="text-lg">
+            Te invitamos a mantenerte conectado a nuestras redes sociales para
+            estar al tanto de nuevas novedades y futuras convocatorias.
+          </p>
+          <p class="text-lg">
+            ¡Esperamos que en futuras oportunidades puedas unirte a nuestra
+            comunidad!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
